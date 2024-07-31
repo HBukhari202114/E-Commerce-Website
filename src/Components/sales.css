@@ -1,0 +1,64 @@
+.container3 {
+    margin-top: 50px;
+  }
+  
+  .container3 h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .row3 {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px; 
+  }
+  
+  .card3 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    position: relative;
+  }
+  
+  .card3:hover {
+    transform: scale(1.05);
+  }
+  
+  .card3-img-top {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card3-body {
+    padding: 10px;
+  }
+  
+  .card3-text {
+    font-size: 1rem;
+    color: #000; 
+    margin: 0;
+  }
+  
+  .card3-body a {
+    color: #000; 
+    text-decoration: none; 
+  }
+  
+  .card3-body a:hover {
+    color: #00aaff; 
+  }
+  
+  .badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007bff; 
+    color: #fff; 
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+  }
+  

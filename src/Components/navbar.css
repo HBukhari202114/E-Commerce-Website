@@ -1,0 +1,10 @@
+.nav-style {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 20px;
+    color: #8d8d8d;
+  }
+  .icone {
+    letter-spacing: 10px;
+   
+  }

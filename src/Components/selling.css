@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container1 {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px;
+    margin: auto; 
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 20px;
+}
+
+.header h1 {
+    margin-bottom: 20px;
+    color: black;
+}
+
+.categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.categories a {
+    text-decoration: none;
+    color: #484747;
+    font-weight: bold;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between items */
+}
+
+.card1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s ease;
+    flex: 1 1 calc(25% - 20px); /* Force 4 items per row */
+    margin: 0; /* Remove margin */
+    box-sizing: border-box; /* Include padding and border in total width */
+}
+
+.card1:hover {
+    transform: scale(1.02);
+}
+
+.card1-img-top {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card1-body {
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-primary {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.card1-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+@media (max-width: 1199px) {
+    .card1 {
+        flex: 1 1 calc(50% - 20px); /* Force 2 items per row on medium screens */
+    }
+}
+
+@media (max-width: 767px) {
+    .card1 {
+        flex: 1 1 calc(100% - 20px); /* Force 1 item per row on small screens */
+    }
+}

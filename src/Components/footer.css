@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer {
+  background: transparent;
+  color: #8d8d8d;
+  padding: 40px 20px;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 15px;
+  background: transparent;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.newsletter-left h2 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.newsletter-right {
+  display: flex;
+  align-items: center;
+}
+
+.newsletter-input {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 400px;
+}
+
+.newsletter-input input {
+  background: #8d8d8d;
+  padding: 5px 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  width: 80%;
+  font-weight: 600;
+}
+
+.newsletter-input button {
+  background: transparent;
+  color: #8d8d8d;
+  font-size: 1rem;
+  padding: 9px 15px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.newsletter-input button:hover {
+  background: #3a3939;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 15px 0;
+}
+
+.footer-main {
+  margin: 10px 20px;
+  width: 400px;
+}
+
+.footer-main h2 {
+  font-size: 1.6rem;
+}
+
+.footer-main p {
+  color: #8d8d8d;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+.social-link {
+  display: flex;
+  gap: 10px;
+}
+
+.social-link a {
+  color: #8d8d8d;
+  font-size: 1.1rem;
+  transition: .3s all;
+}
+
+.social-link a:hover {
+  opacity: 0.7;
+}
+
+.links {
+  margin: 10px 20px;
+}
+
+.links h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.links a {
+  display: block;
+  font-size: 0.8rem;
+  color: #8d8d8d;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.links a:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 1000px) {
+  .newsletter {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 800px) {
+  .newsletter {
+    width: 90%;
+    margin: 40px 20px;
+  }
+}

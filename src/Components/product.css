@@ -1,0 +1,26 @@
+/* product.css */
+.container {
+    margin-top: 50px;
+  }
+  
+  .container h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .container a {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #007bff; 
+    text-decoration: none; 
+  }
+  
+  .container a i {
+    margin-left: 10px;
+  }
+  
+  
